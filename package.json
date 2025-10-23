@@ -13,6 +13,7 @@
     "access": "public"
   },
   "scripts": {
+    "postinstall": "npm run build",
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint --fix --ext .ts . && prettier -w .",
     "test": "prettier --check src && tsc --noEmit && npm run lint",
