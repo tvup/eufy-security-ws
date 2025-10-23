@@ -12,6 +12,12 @@
   "publishConfig": {
     "access": "public"
   },
+  "files": [
+      "src",
+      "tsconfig.json",
+      "*.proto",
+      "*.crt"
+  ],
   "scripts": {
     "prepare": "npm run build",
     "lint": "eslint --ext .ts .",
