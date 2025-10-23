@@ -19,11 +19,11 @@
       "*.crt"
   ],
   "scripts": {
-    "prepare": "npm run build",
+    "prepare": "echo \"** PREPARE  **\" && npm run build",
     "lint": "eslint --ext .ts .",
     "lint:fix": "eslint --fix --ext .ts . && prettier -w .",
     "test": "prettier --check src && tsc --noEmit && npm run lint",
-    "build": "tsc -p .",
+    "build": "echo \"** BUILD **\" && tsc -p .",
     "prepublishOnly": "rm -rf dist tsconfig.tsbuildinfo && npm run build",
     "build:ts": "tsc -p .",
     "server": "node --security-revert=CVE-2023-46809 ./dist/bin/server.js -v -H 0.0.0.0",
