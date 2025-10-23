@@ -58,7 +58,7 @@
     "ansi-colors": "^4.1.3",
     "commander": "^14.0.0",
     "date-and-time": "^3.6.0",
-    "eufy-security-client": "github:tvup/eufy-security-client#a20a6f3",
+    "eufy-security-client": "github:tvup/eufy-security-client#f4bf679",
     "fs-extra": "^11.2.0",
     "tslog": "^4.9.3",
     "ws": "^8.18.3"
