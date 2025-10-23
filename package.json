@@ -13,10 +13,10 @@
     "access": "public"
   },
   "files": [
-      "src",
-      "tsconfig.json",
-      "*.proto",
-      "*.crt"
+    "src",
+    "tsconfig.json",
+    "*.proto",
+    "*.crt"
   ],
   "scripts": {
     "postinstall": "echo \"** POSTINSTALL  **\" && npm run build",
@@ -73,7 +73,7 @@
     "eslint-config-prettier": "^9.1.2",
     "prettier": "^3.6.2",
     "tsx": "^4.20.3",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   },
   "type": "module"
 }
