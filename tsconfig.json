@@ -19,4 +19,5 @@
         "paths": {
             "got": ["./node_modules/got/dist/source"]
         }
+    }
 }
