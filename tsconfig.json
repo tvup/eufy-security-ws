@@ -16,6 +16,7 @@
         "strict": true,
         "sourceMap": true,
         "noEmit": false,
+        "skipLibCheck": true,
         "paths": {
             "got": ["./node_modules/got/dist/source"]
         }
